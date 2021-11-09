@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 
 st.write("### Esta aplicación simula si a ud le podrían aprobar o no una tarjeta de crédito")
 
-datos=pd.read_csv('C:\\Users\\Carlos\\Documents\\Pascual Bravo\\Examen Modulo 2\\Proyecto_Productivo\\creditapproval.csv')
+datos=pd.read_csv('creditapproval.csv')
 
 datos_drop=datos.drop(["CodigoZip","GrupoPobl", "Genero", "Edad", "Deuda", "Casado", "ClienteBanco", "NivelEstudios", "Empleado", "LicenciaConduccion", "Ciudadania"],axis=1)
 
